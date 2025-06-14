@@ -26,6 +26,10 @@ def blog_details2():
 def blog_details3():
     return render_template('users/blog_details3.html')
 
+@app.route('/blog_details4')
+def blog_details4():
+    return render_template('users/blog_details4.html')
+
 
 
 if __name__ == '__main__':

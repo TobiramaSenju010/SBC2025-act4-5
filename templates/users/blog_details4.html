@@ -1,0 +1,25 @@
+{% extends "base/page.html" %}
+
+{% block title %}Blog Details{% endblock %}
+
+{% block content %}
+{{ super() }}
+<div class="container2">
+    <div class="card mb-3">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+        <img src="{{ url_for('static', filename='Athrun Zala.jpg')}}" class="card-img Athrun" alt="Athrun Zala">
+        </div>
+        <div class="col-md-8">
+        <div class="card-body">
+            <h5 class="card-title">Blog Details</h5>
+            <p class="card-text">
+                <h3>Infinite Justice</h3>
+
+                <p>Infinite Justice is a powerful mobile suit developed by the Earth Alliance in the Cosmic Era. Piloted by Athrun Zala, it features advanced technology and weaponry, 
+                    making it a formidable force on the battlefield. The suit's design is sleek and aerodynamic, allowing for high mobility and agility in combat.</p>
+            </p>
+        </div>
+        </div>
+    </div>
+{% endblock %}

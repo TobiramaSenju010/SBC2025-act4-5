@@ -10,50 +10,7 @@
     font-family: Arial, Helvetica, sans-serif; 
 }
 
-.button{
-    background-color: #04AA6D; 
-    border: none;
-    color: white;
-    padding: 10px 40px;
-    text-align: center;
-    text-decoration: none;
-    display:inline-block ;
-    font-size: 16px;
-    position: fixed; 
-    bottom: 200px;
-    right: 150px;
-    
-}
 
-.button2{
-    background-color: #04AA6D; 
-    border: none;
-    color: white;
-    padding: 10px 2px;
-    text-align: center;
-    text-decoration: none;
-    display:inline-block ;
-    font-size: 16px;
-    position: fixed; 
-    bottom: 150px;
-    right: 150px;
-    
-}
-
-.button3{
-    background-color: #04AA6D; 
-    border: none;
-    color: white;
-    padding: 10px 7px;
-    text-align: center;
-    text-decoration: none;
-    display:inline-block ;
-    font-size: 16px;
-    position: fixed; 
-    bottom: 100px;
-    right: 150px;
-    
-}
 .col-md-4 {
     position: relative; 
     padding: 20px;
