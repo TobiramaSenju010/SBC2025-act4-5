@@ -1,0 +1,27 @@
+{% extends "base/page.html" %}
+
+{% block title %}About Me{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="card mb-3">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+        <img src="{{ url_for('static', filename='earl.jpg')}}" class="card-img earl" alt="Earl">
+        </div>
+        <div class="col-md-8">
+        <div class="card-body">
+            <p class="card-text">
+                <h3>@____tobiramasenju____</h3>
+                <p><strong>Name:</strong> Earl James Cocon Yonson</p>
+                <p><strong>Age:</strong> 22</p>
+                <p><strong>Status:</strong> Gusto na nko siya Pakaslan :)</p>
+                 <p><strong>Birthdate:</strong> August 22, 2002</p>
+                 <p><strong>Address:</strong> Lumbocan Butuan City</p>
+                <p><strong>Birthplace:</strong> Butuan City</p>
+                <p><strong>Short Bio:</strong> Look at me! There is nothing in my heart. I don't feel pain any longer. There's no need to feel guilty</p>
+            </p>
+        </div>
+        </div>
+    </div>
+{% endblock %}

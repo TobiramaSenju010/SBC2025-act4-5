@@ -1,0 +1,27 @@
+{% extends "base/page.html" %}
+
+{% block title %}Blog Details{% endblock %}
+
+{% block content %}
+{{ super() }}
+<div class="container2">
+    <div class="card mb-3">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+        <img src="{{ url_for('static', filename='neuvilette2.png')}}" class="card-img neuvilette2" alt="Neuvilettes">
+        </div>
+        <div class="col-md-8">
+        <div class="card-body">
+            <h5 class="card-title">Blog Details</h5>
+            <p class="card-text">
+                <h3>Navigating Pain and Heartbreak</h3>
+                
+                <p>Pain and heartbreak are inevitable aspects of the human experience. Whether caused by loss, disappointment, or betrayal, these emotions can feel overwhelming and isolating. However, they also serve as powerful teachers, guiding us toward growth, resilience, and deeper self-awareness.
+                    Heartbreak often brings a period of reflection, forcing us to confront our vulnerabilities and reevaluate our priorities. In the midst of pain, we discover our inner strength and the ability to heal over time. While it may be tempting to retreat into solitude, embracing support from loved ones can help ease the burden and provide comfort during difficult times.
+                    Healing from pain is a journey that requires patience and self-compassion. It is important to allow ourselves to feel, to grieve, and to process our emotions without judgment. Eventually, with time and effort, we find ways to move forward, carrying the lessons learned from our experiences.
+                    Pain and heartbreak may shape us, but they do not define us. Through these hardships, we emerge stronger, more empathetic, and more prepared to embrace love and joy once again.</p>
+            </p>
+        </div>
+        </div>
+    </div>
+{% endblock %}

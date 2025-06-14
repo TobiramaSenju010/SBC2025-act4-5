@@ -1,0 +1,27 @@
+{% extends "base/page.html" %}
+
+{% block title %}Blog Details{% endblock %}
+
+{% block content %}
+{{ super() }}
+<div class="container2">
+    <div class="card mb-3">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+        <img src="{{ url_for('static', filename='wrio.png')}}" class="card-img wrio" alt="Wrio">
+        </div>
+        <div class="col-md-8">
+        <div class="card-body">
+            <h5 class="card-title">Blog Details</h5>
+            <p class="card-text">
+                <h3>Embracing the Spirit of Adventure</h3>
+                
+                <p>Adventure is an essential part of life that brings excitement, challenges, and unforgettable experiences. It allows us to step outside of our comfort zones, push our limits, and explore the unknown. Whether it’s trekking through dense forests, climbing towering mountains, or navigating the bustling streets of a foreign city, adventure takes many forms and enriches our lives in countless ways.
+                    One of the greatest benefits of adventure is personal growth. Facing new challenges builds resilience and confidence, teaching us to adapt and problem-solve in unfamiliar situations. Each journey provides valuable lessons that shape us into stronger, more capable individuals.
+                    Adventure also fosters a deep connection with the world around us. Nature’s beauty, the diversity of cultures, and the thrill of discovery inspire a sense of wonder and appreciation for life. It encourages mindfulness and living in the moment, making every experience more meaningful.
+                    So, why wait? Pack your bags, embrace uncertainty, and set out on an adventure. The world is vast, filled with incredible experiences waiting to be discovered. Whether big or small, every adventure contributes to a life well-lived.</p>
+            </p>
+        </div>
+        </div>
+    </div>
+{% endblock %}

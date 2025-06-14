@@ -1,0 +1,36 @@
+{% extends "base/page.html" %}
+
+{% block title %}My Blog Homepage{% endblock %}
+
+{% block content %}
+    <div class="text-center">
+        <h1>Welcome to My Personal Blog</h1>
+        <p class="lead">Make The Impossibe, Possible.</p>
+    </div>
+
+    <div class="container">
+        <div class="card mb-3">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+            <img src="{{ url_for('static', filename='neuvilette.png')}}" class="card-img neuvilette" alt="Neuvilette">
+            </div>
+            <div class="col-md-8">
+            <div class="card-body">
+                <p class="card-text">
+                   My Interest: Learning New Things and Exporing new places 
+                </p>
+                <p class="card-text">
+                   Hobbies: Playing Computer Games, Watching Anime, and Spending Time with my Special person  
+                </p>
+                <p class="card-text">
+                   Achievements: Being A Facilitator and Being alive is my biggest Achievement
+                </p>
+            <div class="button">
+                <a class="button" href="{{ url_for('blog_details') }}">Facing Life’s Struggles</a>
+            </div>
+            <div class=" button2"><a class="button2" href="{{ url_for('blog_details2') }}">Embracing the Spirit of Adventure</a></div>
+            <div class="button3"><a class="button3" href="{{ url_for('blog_details3') }}">Navigating Pain and Heartbreak</a></div>
+            </div>
+            </div>
+        </div>
+{% endblock %}

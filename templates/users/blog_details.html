@@ -1,0 +1,42 @@
+{% extends "base/page.html" %}
+
+{% block title %}Blog Details{% endblock %}
+
+{% block content %}
+{{ super() }}
+<div class="container2">
+    <div class="card mb-3">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+        <img src="{{ url_for('static', filename='alhaitham.png')}}" class="card-img alhaitham" alt="Alhaitham">
+        </div>
+        <div class="col-md-8">
+        <div class="card-body">
+            <h5 class="card-title">Blog Details</h5>
+            <p class="card-text">
+                <h3>Facing Life’s Struggles: How to Handle Every Situation with Strength and Resilience</h3>
+                <p><strong>In this post, I talk about my struggles in my life and how to handle every situation.</strong></p>
+                <p>Life has a way of throwing curveballs at us. Whether it's personal challenges, professional setbacks, or unexpected changes, we all face struggles at some point. How we handle these situations, however, can determine how we grow and move forward. In this post, I want to share my personal experiences with life’s challenges and the lessons I’ve learned along the way. I hope that by reflecting on these moments, you can find some guidance for your own journey.</p>
+        
+                <h4>Life Lessons</h4>
+                <ul>
+                    <li>Understanding That Struggles Are Part of Life</li>
+                    <p>- It took me a long time to accept that struggle is not an exception but a part of the human experience. There was a time when I thought that if I worked hard enough, or lived the “right” way, struggles wouldn’t happen. But that’s not how life works.
+                         In fact, struggle is what helps us build strength. Every hardship is an opportunity to learn something new about ourselves and the world around us. Accepting this truth, and not seeing struggle as an enemy, has been one of the most empowering realizations for me.</p>
+                    <li>The Importance of Perspective</li>
+                    <p>- When faced with difficult situations, it’s easy to feel overwhelmed, frustrated, or even defeated. But in every challenge, I’ve learned that shifting my perspective makes all the difference.
+                        Instead of asking “Why me?” I’ve tried asking, “What can I learn from this?” Changing my perspective from victimhood to empowerment has helped me approach problems with a solution-oriented mindset.
+                        Sometimes, the most difficult moments can lead to the most transformative changes. The key is to stay open to that possibility.</p>
+                    <li>Finding Strength in Vulnerability</li>
+                    <p>- For a long time, I thought that I had to handle everything on my own. Vulnerability was a sign of weakness, or so I thought. But over time, I realized that being vulnerable can actually be a source of great strength.
+                        Opening up to others and seeking support is not a sign of failure—it's a sign of courage. Talking to friends, family, or even a therapist has been invaluable for me in navigating tough times. It’s a reminder that no one has to go through life’s struggles alone.</p>
+                    <li>Accepting Change</li>
+                    <p>One of the hardest things to accept has been change. Whether it's the end of a chapter in life or an unexpected turn of events, change often feels unsettling. But over time, I’ve learned that change is not inherently bad. In fact, it’s often necessary for growth.
+                        Every time something in my life shifted, I felt a little more resilient. I learned to embrace the uncertainty and trust that life has a way of unfolding as it should.</p>
+                </ul>
+            </p>
+            <p class="card-text"><small class="text-muted">virtualenvironments</small></p>
+        </div>
+        </div>
+    </div>
+{% endblock %}
